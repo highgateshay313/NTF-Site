@@ -81,13 +81,27 @@ footer > p {
     text-shadow: 0 1px black;
 }
 
+/* links */
 
-a {
-    color: #d0aaff;
+
+.btn-style {
+    display: inline-block;
+    background-color: #d0aaff;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-right: 5px;
 }
 
-a:hover {
-    color: gray;
+.dark {
+    background-color: #adadae;
+}
+
+.hover:hover {
+    background-color: blueviolet;
+    color: #d0aaff;
 }
 
 p {
