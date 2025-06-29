@@ -1,0 +1,95 @@
+
+body {
+    font-size: 16px;
+    color: #2b283a;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+/* For header layout */
+header {
+    background: linear-gradient(195deg, rgb(58, 58, 58), gray);
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
+
+.container > h1 {
+    margin: 0;
+    color: white;
+    font-size: 36px;
+}
+
+h2 {
+    margin-top: 0;
+    color: rgb(177, 176, 176);
+    text-shadow: 0 1px black;
+}
+
+.container > h3 {
+    margin: 0;
+    color: #d0aaff;
+    font-size: 20px;
+}
+
+/* End of header layout */
+
+.section-1 {
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+
+.sneakers {
+    width: 100%;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+.section-2 {
+    background-color: #353436;
+    color: white;
+    padding: 45px 0;
+}
+
+
+
+/* images */
+.section2-img {
+    width: 300px;
+    border-radius: 4.6px;
+}
+
+.img-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#crypto-img {
+    width: 200px;
+}
+
+
+
+footer > p {
+   text-align: center;
+   padding: 45px 0;
+   color: #d0aaff;
+    text-shadow: 0 1px black;
+}
+
+
+a {
+    color: #d0aaff;
+}
+
+a:hover {
+    color: gray;
+}
+
+p {
+    line-height: 1.6em;
+}
